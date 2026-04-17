@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SleepSound" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SleepSound.Splash" parent="Theme.SleepSound">
+        <item name="windowSplashScreenBackground">@color/bg</item>
+        <item name="postSplashScreenTheme">@style/Theme.SleepSound</item>
+    </style>
+
+</resources>
